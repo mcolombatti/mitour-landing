@@ -140,6 +140,20 @@ img[src="img/mobile_formulario.jpg"] {
   border: solid 1px transparent;
   border-radius: 3%;
 }
+ .icon {
+  max-width: 1.2rem;
+}
+.p-hero{
+  display: inline-block;
+  font-size: 1.5rem;
+  max-width: 22rem;
+}
+.trama_azul{    background-image: url(/public/img/trama_azul.svg);
+  background-repeat: repeat;
+  background-size: cover;}
+.trama_blanca{    background-image: url(/public/img/trama_blanca.svg);
+  background-repeat: repeat;
+  background-size: cover;}
 .icono {
   color:#009bdb;
   height: 5rem;
