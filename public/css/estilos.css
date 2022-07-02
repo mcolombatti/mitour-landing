@@ -143,6 +143,9 @@ img[src="img/mobile_formulario.jpg"] {
  .icon {
   max-width: 1.2rem;
 }
+.center-align-justify{    justify-content: center;
+  align-items: center;}
+
 .p-hero{
   display: inline-block;
   font-size: 1.5rem;
@@ -154,6 +157,9 @@ img[src="img/mobile_formulario.jpg"] {
 .trama_blanca{    background-image: url(/public/img/trama_blanca.svg);
   background-repeat: repeat;
   background-size: cover;}
+  .max-w-svg{
+    max-width: 2rem;
+  }
 .icono {
   color:#009bdb;
   height: 5rem;
@@ -408,7 +414,9 @@ footer > div {
   #barra ul li a {
     padding: 1em 0;
   }
-}
+  .img-w-40 {
+  width: 40rem;}
+} 
 
 @media screen and (min-width: 992px) {
   footer ul {
@@ -418,6 +426,9 @@ footer > div {
   footer ul {
     flex-direction: row;
   }
+}
+@media screen and (max-width: 576px) {
+ .p-mitour {padding: 2rem;}
 }
 
 @media screen and (min-width: 576px) {
@@ -438,13 +449,25 @@ footer > div {
   background-size: cover;
   height: 80px;
   display: block;
-}
+} 
+.align-baseline{    align-self: baseline;}
+.p-0{    padding: 0 !important;}
+.p-025{padding:1px 0.25rem !important;}
+.pt-0 {    padding: 0 !important;}
 #logo_span{    width: 331px;
   background-image: url(../img/logo_h1.svg);
   content: "mitour";
   background-position: center;
   background-size: cover;
   height: 80px;
+  display: inline-block;
+}
+#mitour_link{    width: 85px;
+  background-image: url(../img/mitour.svg);
+  content: "mitour";
+  background-position: center;
+  background-size: cover;
+  height:20px;
   display: inline-block;
 }
 .svg {
