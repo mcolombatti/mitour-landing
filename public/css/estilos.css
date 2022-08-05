@@ -417,7 +417,9 @@ footer > div {
   .img-w-40 {
   width: 40rem;}
 } 
-
+.logo-margin{
+ margin: 0.125rem!important;
+}
 @media screen and (min-width: 992px) {
   footer ul {
     flex-direction: row;
@@ -452,7 +454,7 @@ footer > div {
 } 
 .align-baseline{    align-self: baseline;}
 .p-0{    padding: 0 !important;}
-.p-025{padding:1px 0.25rem !important;}
+.p-025{padding:1.2px 0.25rem !important;}
 .pt-0 {    padding: 0 !important;}
 #logo_span{    width: 331px;
   background-image: url(../img/logo_h1.svg);
